@@ -1,0 +1,78 @@
+@charset "UTF-8"
+/*
+Theme Name: ARKON Theme
+Theme URI: https://arkondata.com
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: ARKON is a landing page.
+Requires at least: 5.7
+Tested up to: 6.0
+Requires PHP: 8.0
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
+@import 'fn.styl'
+
+@font-face {
+  font-family: 'sfns_displayregular';
+  src: url('assets/font/sfns_display_regular-webfont.woff2') format('woff2'),
+          url('assets/font/sfns_display_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.SF *
+  font-family 'sfns_displayregular', sans-serif
+.M
+  font-family 'Montserrat', sans-serif
+
+.uk-container
+  max-width 1440px
+.fw-600
+  font-weight 600
+.b
+  font-weight bold
+
+.bcw
+  background white
+
+.bcblue
+  background #3DC0CB
+
+.bcF8
+  background #f8f8f8
+
+.bgData
+  background-image url("assets/images/back-black-and-white-buildings-1435194.png")
+  background-color #f8f8f8
+  background-repeat no-repeat
+  background-position bottom left
+
+.cw
+  color white
+
+.cblue
+  color #009FDC
+
+.lh100
+  line-height 100%
+.lh75
+  line-height 75%
+
+.rad17
+  border-radius 17px
+
+fn(font-size, 12, s)
+fn(font-size, 15, s)
+fn(font-size, 19, s)
+fn(font-size, 24, s)
+fn(font-size, 48, s)
+fn(font-size, 52, s)
+fn(font-size, 144, s)
+
+.btn-get
+  width 220px
+  height 40px

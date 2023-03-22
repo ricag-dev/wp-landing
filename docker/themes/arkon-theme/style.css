@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/*
+Theme Name: ARKON Theme
+Theme URI: https://arkondata.com
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: ARKON is a landing page.
+Requires at least: 5.7
+Tested up to: 6.0
+Requires PHP: 8.0
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap");
+@font-face {
+  font-family: 'sfns_displayregular';
+  src: url("assets/font/sfns_display_regular-webfont.woff2") format('woff2'), url("assets/font/sfns_display_regular-webfont.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.SF * {
+  font-family: 'sfns_displayregular', sans-serif;
+}
+.M {
+  font-family: 'Montserrat', sans-serif;
+}
+.uk-container {
+  max-width: 1440px;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.b {
+  font-weight: bold;
+}
+.bcw {
+  background: #fff;
+}
+.bcblue {
+  background: #3dc0cb;
+}
+.bcF8 {
+  background: #f8f8f8;
+}
+.bgData {
+  background-image: url("assets/images/back-black-and-white-buildings-1435194.png");
+  background-color: #f8f8f8;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+.cw {
+  color: #fff;
+}
+.cblue {
+  color: #009fdc;
+}
+.lh100 {
+  line-height: 100%;
+}
+.lh75 {
+  line-height: 75%;
+}
+.rad17 {
+  border-radius: 17px;
+}
+.s-12 {
+  font-size: 12px;
+}
+.s-15 {
+  font-size: 15px;
+}
+.s-19 {
+  font-size: 19px;
+}
+.s-24 {
+  font-size: 24px;
+}
+.s-48 {
+  font-size: 48px;
+}
+.s-52 {
+  font-size: 52px;
+}
+.s-144 {
+  font-size: 144px;
+}
+.btn-get {
+  width: 220px;
+  height: 40px;
+}
