@@ -30,8 +30,18 @@ html(lang='es')
         <!-- End Google Tag Manager (noscript) -->
         |{body_open}
         .uk-container.SF.s-12
-            .bgData
-                include tpl/banner.pug
-                include tpl/control.pug
+            .shw.uk-overflow-hidden
+                .bgData.uk-position-relative.uk-position-z-index.shw
+                    include tpl/banner.pug
+                    include tpl/control.pug
+                .uk-position-relative
+                    include tpl/solution.pug
+                .uk-position-relative
+                    .uk-position-top-left.uk-height-1-1.uk-width-1-1
+                        .bcskew.uk-height-1-1.uk-width-1-1
+                    .uk-position-relative.uk-position-z-index
+                        include tpl/data.pug
+                        include tpl/form.pug
+            .bc07.cw.uk-text-center.uk-padding All Righs Reserver @ 2019 Arkon Data  |  More information:  info@arkondata.com
 
         |{footer}
