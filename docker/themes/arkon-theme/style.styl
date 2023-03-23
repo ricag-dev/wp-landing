@@ -39,7 +39,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 .bcw
   background white
 
-.bcblue
+.bc3d
   background #3DC0CB
 
 .bcF8
@@ -55,7 +55,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
   background-image url("assets/images/back-black-and-white-buildings-1435194.png")
   background-color #f8f8f8
   background-repeat no-repeat
-  background-position bottom left
+  background-position bottom right
 
 .shw
   box-shadow 0 11px 18px 0 rgba(0,0,0,0.34)
@@ -85,16 +85,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 .rad17
   border-radius 17px
 
-fn(font-size, 12, s)
-fn(font-size, 14, s)
-fn(font-size, 15, s)
-fn(font-size, 19, s)
-fn(font-size, 24, s)
-fn(font-size, 48, s)
-fn(font-size, 52, s)
-fn(font-size, 60, s)
-fn(font-size, 83, s)
-fn(font-size, 144, s)
+
 
 fn(padding-left, 10, pl)
 fn(padding-left, 20, pl)
@@ -106,6 +97,10 @@ fn(margin-top, -30, mt)
 fn(margin-bottom, -120, mb)
 
 fn(height, 120, h)
+fn(height, 60, h)
+
+.py-60
+  padding 60px 0
 
 .dib
   display inline-block
@@ -139,3 +134,18 @@ fn(height, 120, h)
 .bcskew
   background #EFEFEF
   transform skew(18deg, -24deg) translate(0, 35%) scale(1.2)
+
+fn(font-size, 30, sm)
+fn(font-size, 80, sm)
+fn(font-size, 12, s)
+
+@media (min-width: 640px)
+  fn(font-size, 14, s)
+  fn(font-size, 15, s)
+  fn(font-size, 19, s)
+  fn(font-size, 24, s)
+  fn(font-size, 48, s)
+  fn(font-size, 52, s)
+  fn(font-size, 60, s)
+  fn(font-size, 83, s)
+  fn(font-size, 144, s)
