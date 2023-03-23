@@ -6,13 +6,14 @@ section(uk-grid).uk-grid-collapse
         img(src="{DIR}assets/images/group-5.png",alt="").uk-width-1-1
         .uk-position-top-left.uk-width-1-1
             canvas(width="19",height="13").uk-width-1-1
-            .uk-position-center.uk-position-z-index.cw
+            .uk-position-center.uk-position-z-index.cw(uk-scrollspy="target: h2, span, button; cls: uk-animation-slide-bottom-medium; delay: 200")
                 h2.uk-margin-remove.s-52.sm-30.lh100.cw MASTER, CONTROL
                 .uk-grid-collapse(uk-grid)
                     .M.b.s-144.sm-80.lh75 &
-                    .s-52.sm-30.lh100.fw-600 HARMONIZE DATA
+                    .s-52.sm-30.lh100.fw-600
+                        span.uk-display-inline-block(uk-scrollspy-class="uk-animation-slide-right-small") HARMONIZE DATA
                         .uk-text-right
-                            button.uk-button.bcw.cblue.s15.M.rad17.btn-get GET A DEMO
+                            button.uk-button.bcw.cblue.s15.M.rad17.btn-get(uk-scrollspy-class="uk-animation-slide-bottom-small") GET A DEMO
 
 
 
