@@ -1,0 +1,155 @@
+@charset "UTF-8"
+/*
+Theme Name: ARKON Theme
+Theme URI: https://arkondata.com
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: ARKON is a landing page.
+Requires at least: 5.7
+Tested up to: 6.0
+Requires PHP: 8.0
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
+@import 'fn.styl'
+
+@font-face {
+  font-family: 'sfns_displayregular';
+  src: url('assets/font/sfns_display_regular-webfont.woff2') format('woff2'),
+          url('assets/font/sfns_display_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.SF *
+  font-family 'sfns_displayregular', sans-serif
+.M
+  font-family 'Montserrat', sans-serif
+
+.fw-600
+  font-weight 600
+.b
+  font-weight bold
+
+.bcw
+  background white
+
+.bc3d
+  background #3DC0CB
+
+.bcF8
+  background #f8f8f8
+.bcblue
+  background #009FDC
+.bcb0
+  background #0D2643
+.bc07
+  background #071526
+
+.bgData
+  background-image url("assets/images/back-black-and-white-buildings-1435194.png")
+  background-color #f8f8f8
+  background-repeat no-repeat
+  background-position bottom right
+
+.shw
+  box-shadow 0 11px 18px 0 rgba(0,0,0,0.34)
+@media (max-width: 1400px)
+  .uk-container-large
+    padding 0
+@media (min-width: 1400px)
+  .shw-container
+    box-shadow 0 11px 18px 0 rgba(0,0,0,0.34)
+
+.cw
+  color white
+
+.cgr
+  color #3DC0CB
+.cblue
+  color #009FDC
+.cbb
+  color #174985
+.cb0
+  color #0D2643
+
+.lh110
+  line-height 110%
+.lh100
+  line-height 100%
+.lh75
+  line-height 75%
+
+.lh25p
+  line-height 25px
+
+.rad17
+  border-radius 17px
+
+
+
+fn(padding-left, 10, pl)
+fn(padding-left, 20, pl)
+
+fn(padding-top, 70, pt)
+
+fn(margin-top, -30, mt)
+
+fn(margin-bottom, -120, mb)
+
+fn(height, 120, h)
+fn(height, 60, h)
+
+.py-60
+  padding 60px 0
+
+.dib
+  display inline-block
+
+.btn-get
+  width 220px
+  height 40px
+
+.frm
+  input
+    margin-bottom 20px
+    border-radius 25px
+    height 40px
+    border 2px solid #FFF
+    background transparent
+    color white
+    font-weight bold
+    font-family 'Montserrat', sans-serif
+    padding 5px 30px
+    &::placeholder
+      color white
+      opacity 0.8
+
+  button
+    width 100%
+
+.bcform
+  border-radius 0 60px 60px 0
+  background linear-gradient(312.51deg, #3DC0CB 0%, #0AA4D9 22.04%, #0F4B90 82.79%, #122336 100%)
+
+.bcskew
+  background #EFEFEF
+  transform skew(18deg, -24deg) translate(0, 35%) scale(1.2)
+
+fn(font-size, 30, sm)
+fn(font-size, 80, sm)
+fn(font-size, 12, s)
+
+@media (min-width: 640px)
+  fn(font-size, 14, s)
+  fn(font-size, 15, s)
+  fn(font-size, 19, s)
+  fn(font-size, 24, s)
+  fn(font-size, 48, s)
+  fn(font-size, 52, s)
+  fn(font-size, 60, s)
+  fn(font-size, 83, s)
+  fn(font-size, 144, s)

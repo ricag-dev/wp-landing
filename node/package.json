@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-stylus": "^0.1.1",
+    "node-mailjet": "^6.0.2",
+    "pug": "^3.0.2"
+  }
+}

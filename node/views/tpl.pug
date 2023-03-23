@@ -1,0 +1,49 @@
+doctype html
+html(lang='es')
+    head
+        meta(charset="utf-8")
+
+        title=title
+
+        meta(name='robots' content='noindex, nofollow')
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+
+        link(rel="icon" href="cropped-arkonvertical-32x32.png" sizes="32x32")
+        link(rel="icon" href="cropped-arkonvertical-192x192.png" sizes="192x192")
+        link(rel="apple-touch-icon" href="cropped-arkonvertical-180x180.png")
+        meta(name="msapplication-TileImage" content="cropped-arkonvertical-270x270.png")
+
+        <!-- google tag manager -->
+        script.
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new date().gettime(),event:'gtm.js'});var f=d.getelementsbytagname(s)[0],
+            j=d.createelement(s), dl = l != 'datalayer' ? '&l=' + l : '';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentnode.insertbefore(j,f);
+            })(window,document,'script','datalayer','gtm-txqfsdp');
+        <!-- end google tag manager -->
+
+        <!-- uikit css -->
+        link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.10/dist/css/uikit.min.css")
+
+        <!-- uikit js -->
+        script(src="https://cdn.jsdelivr.net/npm/uikit@3.16.10/dist/js/uikit.min.js")
+
+        link(rel="stylesheet" href="style.css")
+    body
+        <!-- Google Tag Manager (noscript) -->
+        noscript <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXQFSDP" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        .uk-container.uk-container-large.SF.s-12
+            .shw-container.uk-overflow-hidden
+                .bgData.uk-position-relative.uk-position-z-index.shw
+                    include tpl/banner
+                    include tpl/control
+                .uk-position-relative
+                    include tpl/solution
+                .uk-position-relative
+                    .uk-position-top-left.uk-height-1-1.uk-width-1-1(uk-parallax="opacity: 0,1,1; y: -80,0,0; x: 100,100,0; scale: 2,1,1; end: 50vh + 50%;")
+                        .bcskew.uk-height-1-1.uk-width-1-1
+                    .uk-position-relative.uk-position-z-index
+                        include tpl/data
+                        include tpl/form
+            .bc07.cw.uk-text-center.uk-padding All Righs Reserver @ 2019 Arkon Data  |  More information:  info@arkondata.com
