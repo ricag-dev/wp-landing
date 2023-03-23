@@ -155,7 +155,7 @@ function update_siteurl()
         $wpdb->query("UPDATE {$wpdb->prefix}posts SET guid = replace(guid, '$old_ip','$ip');");
         $wpdb->query("UPDATE {$wpdb->prefix}posts SET post_content = replace(post_content, '$old_ip', '$ip');");
         $wpdb->query("UPDATE {$wpdb->prefix}postmeta SET meta_value = replace(meta_value,'$old_ip','$ip');");
-        wp_redirect('/');
+        echo '<script>location.reload();</script>';
     }
 
 }
